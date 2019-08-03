@@ -26,12 +26,33 @@ let apples = 3
 let oranges = 5
 let appleSummary = "I have \(apples) apples"
 let fruitSummary = "I have \(apples + oranges) pieces of fruit"
-// Experiment - Use \() to include a floating-point calculation in a string and to include someone’s name in a greeting.
+// 实验 - Use \() to include a floating-point calculation in a string and to include someone’s name in a greeting.
 let π: Float = 3.14
 let name = "Peter Pie"
 let piePy = "\(name) likes the number \(π)"
 
+// 三个双引号，来一次输入多行内容
 let quotation = """
 I said "I have \(apples) apples."
 And then I said "I have \(apples + oranges) pieces of fruit."
 """
+
+// 数组
+var shoppingList = ["catfish", "water", "tulips", "blue paint"]
+shoppingList[1] = "bottle of water"
+shoppingList
+
+// 字典
+var occupations = [
+  "Malcom": "Captain",
+  "Kaylee": "Mechanic",
+]
+occupations["Jayne"] = "Public Relations"
+occupations
+
+// Initialising an empty array or dict
+let emptyArray = [String]()
+var emptyDictionary = [String: Float]()
+
+shoppingList = []
+emptyDictionary = [:]
