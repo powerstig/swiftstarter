@@ -34,4 +34,4 @@ struct IdiomResponder: HTTPResponder {
 let website = Website(responder: IdiomResponder())
 
 /// Runs the website at the default port
-try website.run()
+try website.run(port: 8123)
